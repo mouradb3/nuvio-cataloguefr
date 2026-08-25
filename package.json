@@ -1,0 +1,16 @@
+{
+  "name": "nuvio-fr-digital-releases",
+  "version": "1.0.0",
+  "description": "Addon Stremio/Nuvio - catalogue des sorties digitales/Blu-ray en France (films) et saisons fraichement disponibles (series)",
+  "main": "addon.js",
+  "scripts": {
+    "start": "node addon.js"
+  },
+  "dependencies": {
+    "stremio-addon-sdk": "^1.6.10",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
